@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    margin: 3rem 150px;
+}
+.cart{
+    width: 65%;
+    background-color: #f2f2f2;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.table-head{
+    color: white;
+    background-color: aqua;
+}
+.head-img{
+    text-align: left;
+    padding-left: 7px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/0f11fb3fab.js" crossorigin="anonymous"></script>
+    <title>boAt</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="bck">
+                <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="images">
+                <div class="img-holder active">
+                    <img src="BoatBB.jpg" id="ProductImg">
+                </div>
+                <div class="img-holder">
+                    <img src="BoatBB.jpg" class="SmallImg">
+                </div>
+                <div class="img-holder">
+                    <img src="BB.jpg" class="SmallImg">
+                </div>
+                <div class="img-holder">
+                    <img src="BoatCr.jpg" class="SmallImg">
+                </div>
+            </div>
+            <div class="basic-info">
+                <h1>boAt Wave Edge</h1>
+                <div class="rate">
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <span>$15</span>
+            </div>
+            <div class="description">
+                <h1>About this item</h1>
+                <p>Bluetooth Calling: Calling made convenient with just a tap on Wave Edge. Save up to 10 contacts, make calls with the dial pad and its superior quality speaker & mic make your experience smooth and clear.
+                    <br>Screen Size: Wave Edge comes with a big, bold and a sharp screen with a 1.85” HD Display coupled with 90% Screen-to-Body Ratio.
+                    <br>Functional Crown: Easily navigate through the watch and smoothly switch your watch faces with the functional crown .
+                    <br>100+ Sports Modes: Switch up your fitness and sports routines with 100+ Sports modes to choose from. It is IP68 rated making it your perfect companion for fitness journeys.
+                    <br>Widget Control: Enjoy the ease of controlling all your widgets in one place, with the widget controller that you can find with a left swipe on your main screen.
+                    <br>Voice Assistant: This smartwatch's voice assistant takes on questions, set reminders and alarms. Wave Edge is a smartwatch smart enough to listen to all your commands
+                    <br>Inbuilt Games: Get your fun on! Make and beat your high scores with 3 games - Young Bird, 2048 & Thunder Battle Ship
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("SmallImg");
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src = SmallImg[2].src;
+        }
+
+    </script>
+</body>
+</html>

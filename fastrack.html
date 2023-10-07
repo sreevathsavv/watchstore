@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/0f11fb3fab.js" crossorigin="anonymous"></script>
+    <title>Fastrack</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="bck">
+                <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="images">
+                <div class="img-holder active">
+                    <img src="BlackF.jpg" id="ProductImg">
+                </div>
+                <div class="img-holder">
+                    <img src="BlackF.jpg" class="SmallImg">
+                </div>
+                <div class="img-holder">
+                    <img src="GreenF.jpg" class="SmallImg">
+                </div>
+                <div class="img-holder">
+                    <img src="BlueF.jpg" class="SmallImg">
+                </div>
+            </div>
+            <div class="basic-info">
+                <h1>Fastrack Limitless FS1</h1>
+                <div class="rate">
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <span>$24</span>
+            </div>
+            <div class="description">
+                <h1>About this item</h1>
+                <p>1.95” UltraVU Display : Fastrack Limitless FS1 comes with our largest 1.95” UltraVU Display and is ready to style your wrist with bright pixel resolution and brand new amazing colours. <br>SingleSync BT Calling : Pick your calls at your wrist with SingleSync BT Calling which ensures faster and seamless call connectivity<br>100+ Sports Modes : Track advanced activity metrics for all new built-in 100+ Sports Modes with your AI Coach to train you better <br>Up to 5 day battery : Witness a new journey with your Limitless FS1 with a Battery life of upto 5 Days.<br>Built-in Alexa : Command your watch to make your tasks easier like setting up alarms, reminders and much more with the <br>In-Built Alexa feature in your handy kit on your wrist <br>Health Suite : Worried about your health? Track your Stress levels, 24*7 Heart Rate, SpO2 blood oxygen level on your best companion<br>Sleep Monitoring : You should know how well you sleep after that tiring day and hence Limitless FS1 tracks your sleep all through the night, so you have an insight on your all-round health <br>Music Control on your smartwatch : Have your music vibe while your workout by having full control over your phone music from your watch itself.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("SmallImg");
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src = SmallImg[2].src;
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/0f11fb3fab.js" crossorigin="anonymous"></script>
+    <title>Noise</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="bck">
+                <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="images">
+                <div class="img-holder active">
+                    <img src="BlackN.jpg" id="ProductImg">
+                </div>
+                <div class="img-holder">
+                    <img src="BlackN.jpg" class="SmallImg">
+                </div>
+                <div class="img-holder">
+                    <img src="BrownN.jpg" class="SmallImg">
+                </div>
+                <div class="img-holder">
+                    <img src="CreamN.jpg" class="SmallImg">
+                </div>
+            </div>
+            <div class="basic-info">
+                <h1>Noise ColorFit Pro</h1>
+                <div class="rate">
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <span>$36</span>
+            </div>
+            <div class="description">
+                <h1>About this item</h1>
+                <p>1.78" AMOLED display: See your world in utmost clarity on the 1.78" AMOLED display with 368*448 pixel resolution.
+                   <br>Always on Display: Take your pick from a plethora of Always On Display watch faces and see your day unfold.
+                   <br>Functional crown: Navigate your way through a series of features with ease, thanks to the fully functional digital crown.
+                   <br>Tru Sync: Get the best-in-class calling experience with the Tru Sync feature that ensures a stable and fast connection every single time.
+                   <br>Noise Buzz: Stay connected with the world throughout the day via the Noise Buzz feature that gives you access to a dial pad, call logs and the option to save up to 10 contacts.
+                   <br>Gesture control: Cover the screen with your palm to turn it off and double-tap it to turn it back on.
+                   <br>7-day battery with Instacharge: Use your watch for 7 days straight and juice it for another 24 hours in just 10 minutes of charge.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("SmallImg");
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src = SmallImg[2].src;
+        }
+
+    </script>
+</body>
+</html>
